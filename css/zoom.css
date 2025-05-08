@@ -1,0 +1,9 @@
+/* Gallery Image Zoom Effect */
+.grid img {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.grid img:hover {
+    transform: scale(1.1);
+}
